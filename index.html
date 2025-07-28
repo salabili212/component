@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <title>Document</title>
+</head>
+<body>
+    
+        
+    <div class="container-1">
+        <div class="container-2">            
+            <p style="margin-top: 3px;">Your Result</p>
+            <h1>76<p>of 100</p></h1>
+            <h2>Great</h2>
+            <p>Your scored higher than 65% of<br>the people who have taken<br>these tests.</p>           
+        </div>
+
+        <div class="content">
+            <h3>Summary</h3>
+            <h5 class="reaciton"><span><i class="fa-solid fa-bolt" style="color: #af181f;"></i> Reaction</span><span><span style="color: black;">80</span><span style="color: gray;">/100</span></span></h5>
+            <h5 class="Memory"><span><i class="fa-solid fa-brain" style="color: #FFD43B;"></i> Memory</span><span><span style="color: black;">80</span><span style="color: gray;">/100</span></span></h5>
+            <h5 class="Verbal"><span><i class="fa-regular fa-comment-dots" style="color: #63E6BE;"></i> Verbal</span><span><span style="color: black;">80</span><span style="color: gray;">/100</span></span></h5>
+            <h5 class="Visual"><span><i class="fa-solid fa-eye" style="color: #2025cb;"></i> Reaction</span><span><span style="color: black;">80</span><span style="color: gray;">/100</span></span></h5>
+            <button class="btn">Continue</button>
+        </div>
+        
+    </div>
+    
+    
+
+    <style>
+        body{
+            background-color: rgb(208, 210, 224);
+        }
+        .reaciton{
+            display: flex;
+            gap: 6rem;
+            color: rgb(170, 60, 60);
+            border-radius: 12px;
+            justify-content: center;
+            background-color: #f817222b;
+            align-items: center;
+        }
+        .Verbal{
+            display: flex;
+            gap: 6rem;
+            color: rgb(26, 87, 90);
+            border-radius: 12px;
+            justify-content: center;
+            background-color: #58ae9d31;
+            align-items: center;
+
+        }
+        .Visual{
+            display: flex;
+            gap: 6rem;
+            color: rgba(170, 60, 60, 0.351);
+            border-radius: 12px;
+            justify-content: center;
+            background-color: #555abf45;
+            align-items: center;            
+        }
+
+        .Memory{
+            display: flex;
+            gap: 6rem;
+            border-radius: 12px;
+            justify-content: center;
+            color: #ffd53bad;
+            background-color: rgba(242, 242, 173, 0.599);
+            align-items: center;
+        }
+        span{
+            right: 0;
+        }
+        h5{
+            height: 3rem;
+            
+        }
+        button{
+            width: 14rem;
+            height: 2.5rem;
+            margin-left: .6rem;
+            border-radius: 50px;
+            border: none;
+            background-color: rgb(42, 42, 65);
+            color: white;
+        }
+         
+        .content{
+            justify-self: right;
+            width: 15rem;
+            padding: .5rem;
+        }
+
+        .container-1{
+            display: flex;
+            width: 33em;
+            height: 26rem;
+            background-color: white;
+            border-radius: 25px;
+            justify-self: center;
+            margin-top: 8rem;
+            box-shadow: 40px 0 100px -20px rgba(0, 42, 178, 0.302);
+        }
+        .container-2{
+            width: 16rem;
+            height: 26rem;
+            background:linear-gradient(to bottom, #9924cb,#755bcb,#2007dcd0);
+            border-radius: 25px;
+            justify-items: center;
+            align-content: center;
+        }
+        p{
+            text-align: center;
+            color: rgb(182, 179, 179);
+            font-size: medium;
+        }
+        
+        h1{
+            color: white;
+            text-align: center;
+            width: 8rem;
+            height: 8rem;
+            justify-self: center;
+            border: none;
+            background: linear-gradient(to bottom,#9924cb,#7e13ad,#2007dcd0);
+            border-radius: 100px;
+            text-align: center;
+            font-weight: 800;
+            align-content: center;
+            
+            
+        }
+        h2{
+            color: white;
+            text-align: center;
+        }
+
+        @media(max-width: 600px){
+            .container-1{
+                height: 45rem;
+                width: 19rem;
+                display: flex;
+                flex-direction: column;  
+                justify-self: center;           
+                align-items: center;
+            }
+            .container-2{
+                height: 20rem;
+                width: 19rem;
+                border-radius: 0;
+                border-bottom-right-radius: 25px;
+                border-bottom-left-radius: 25px;
+
+            }
+            h1{
+                height: 8rem;
+                width: 8rem;
+            }
+            
+        }
+
+
+    </style>
+
+</body>
+</html>
